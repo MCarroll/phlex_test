@@ -16,5 +16,5 @@ end
 group :development do
 end
 
-gem 'phlex'
+gem 'phlex', git: 'https://github.com/joeldrapper/phlex.git', branch: 'main'
 gem 'vite_rails'
