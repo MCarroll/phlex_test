@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/joeldrapper/phlex.git
+  revision: 58faaebd2615d693152c0742a11acb1c38717d5d
+  branch: main
+  specs:
+    phlex (0.2.2)
+      syntax_tree (~> 3.6)
+      zeitwerk (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -92,7 +101,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    net-imap (0.3.0)
+    net-imap (0.3.1)
       net-protocol
     net-pop (0.1.2)
       net-protocol
@@ -103,8 +112,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-arm64-darwin)
       racc (~> 1.4)
-    phlex (0.2.2)
-      zeitwerk (~> 2.6)
+    prettier_print (0.1.0)
     puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -150,6 +158,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.5.0-arm64-darwin)
+    syntax_tree (3.6.1)
+      prettier_print
     thor (1.2.1)
     timeout (0.3.0)
     tzinfo (2.0.5)
@@ -172,7 +182,7 @@ PLATFORMS
 DEPENDENCIES
   cssbundling-rails
   debug
-  phlex
+  phlex!
   puma (~> 5.0)
   rails (~> 7.0.4)
   sprockets-rails
